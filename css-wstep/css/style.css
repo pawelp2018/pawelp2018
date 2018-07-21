@@ -1,0 +1,58 @@
+/*selaktor unowersalny łapie wszystkie elementy na stronie*/
+* {
+    color: red;
+}
+
+/*selsktor łaczony*/
+
+p.green {
+    color: green;
+}
+/*pseude elementy*/
+p::before {
+    content: '*';
+    color: yellow;
+}
+/* hover najazd myszka */
+
+a:hover {
+    color: yellowgreen;
+}
+/*input focus*/
+input:focus {
+    border: 3px solid blue;
+    
+}
+/*
+ul .list-item:first-child {
+    color:grey;
+}
+*/
+ul .list-item:first-of-type {
+    color:grey;
+}
+
+
+/* nht-of-type*/
+
+/*
+ul .list-item:nth-of-type(4) {
+    color: blue;
+}
+*/
+
+
+/*
+ul .list-item:nth-of-type(2n+1) {
+    color: blue;
+*/
+
+/*
+ul .list-item:nth-of-type(4n+3) {
+    color: blue;
+*/
+
+ul .list-item:nth-of-type(even) {
+    color: blue;
+
+
